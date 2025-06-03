@@ -17,7 +17,7 @@ export function AiWorkflowSection() {
               Your Personal Startup Co-pilot, Available 24/7
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              Foundry's AI agents analyze market trends, generate business strategies, and help craft compelling pitches. They're trained on startup best practices to guide you at every step.
+              FFoundarly's AI agents analyze market trends, generate business strategies, and help craft compelling pitches. They're trained on startup best practices to guide you at every step.
             </p>
 
             <div className="space-y-5">
@@ -66,7 +66,7 @@ export function AiWorkflowSection() {
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
                 </div>
-                <div className="text-sm font-medium text-gray-500 dark:text-gray-400">Foundry AI Assistant</div>
+                <div className="text-sm font-medium text-gray-500 dark:text-gray-400">Foundarly AI Assistant</div>
                 <div className="w-6"></div>
               </div>
               
@@ -78,7 +78,7 @@ export function AiWorkflowSection() {
                   </div>
                   <div className="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-sm max-w-xs sm:max-w-md">
                     <p className="text-gray-700 dark:text-gray-200">
-                      Hello! I'm your Foundry AI assistant. How can I help with your startup today?
+                      Hello! I'm your Foundarly AI assistant. How can I help with your startup today?
                     </p>
                   </div>
                 </div>

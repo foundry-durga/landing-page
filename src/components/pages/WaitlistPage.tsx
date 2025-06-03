@@ -126,7 +126,7 @@ export function WaitlistPage() {
   {/* Twitter/X */}
   <a
     href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-      "🚀 Just joined the waitlist for a game-changing startup platform! If you're building something big, this is where you start. Check it out! https://yourdomain.com #StartupRevolution #NextBigThing"
+      "🚀 Just joined the waitlist for a game-changing startup platform! If you're building something big, this is where you start. Check it out! https://foundarly.netlify.app/ #StartupRevolution #NextBigThing"
     )}`}
     target="_blank"
     rel="noopener noreferrer"
@@ -145,7 +145,7 @@ export function WaitlistPage() {
   {/* LinkedIn */}
   <a
     href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-      "https://yourdomain.com"
+      "https://foundarly.netlify.app/"
     )}`}
     target="_blank"
     rel="noopener noreferrer"
@@ -164,7 +164,7 @@ export function WaitlistPage() {
   {/* WhatsApp */}
   <a
     href={`https://wa.me/?text=${encodeURIComponent(
-      "🔥 Just found the ultimate startup launchpad! Join me and get early access: https://yourdomain.com"
+      "🔥 Just found the ultimate startup launchpad! Join me and get early access: https://foundarly.netlify.app/"
     )}`}
     target="_blank"
     rel="noopener noreferrer"

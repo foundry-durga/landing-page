@@ -12,7 +12,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <LogoIcon />
-              <span className="text-xl font-bold text-gray-900 dark:text-white">Foundry</span>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">Foundarly</span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               Turn ideas into startups in days, not months with AI copilots and smart workspaces.
@@ -64,7 +64,7 @@ export function Footer() {
         <div className="pt-8 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              © {new Date().getFullYear()} Foundry. All rights reserved.
+              © {new Date().getFullYear()} Foundarly. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <Button variant="primary" size="md">Start Building Today</Button>

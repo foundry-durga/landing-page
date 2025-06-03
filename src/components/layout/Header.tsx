@@ -35,7 +35,7 @@ export function Header() {
         <nav className="relative flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 z-20">
             <LogoIcon />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">Foundry</span>
+            <span className="text-xl font-bold text-gray-900 dark:text-white">Foundarly</span>
           </Link>
 
           {/* Desktop Navigation */}

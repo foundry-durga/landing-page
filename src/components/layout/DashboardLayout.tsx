@@ -121,7 +121,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                   <Rocket size={20} className="text-white" />
                 </div>
                 <span className="text-xl font-bold text-gray-900 dark:text-white hidden md:block">
-                  Foundry
+                  Foundarly
                 </span>
               </Link>
 

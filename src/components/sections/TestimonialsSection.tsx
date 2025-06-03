@@ -5,7 +5,7 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Foundry helped me find the perfect technical co-founder in just two weeks. We've since raised our seed round and launched our beta.",
+    quote: "Foundarly helped me find the perfect technical co-founder in just two weeks. We've since raised our seed round and launched our beta.",
     author: "Jessica Lee",
     title: "Founder, HealthSync",
     avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
@@ -17,7 +17,7 @@ const testimonials = [
     avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
   },
   {
-    quote: "As an investor, Foundry's platform gives me early access to well-structured startups with clear vision and execution plans. The quality is consistently high.",
+    quote: "As an investor, Foundarly's platform gives me early access to well-structured startups with clear vision and execution plans. The quality is consistently high.",
     author: "Sarah Chen",
     title: "Partner, Horizon Ventures",
     avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
@@ -42,7 +42,7 @@ export function TestimonialsSection() {
             Trusted by Founders & Investors
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Join the community of innovators who are building the next generation of startups with Foundry.
+            Join the community of innovators who are building the next generation of startups with Foundarly.
           </p>
         </div>
         

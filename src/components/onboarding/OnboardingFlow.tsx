@@ -163,7 +163,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
                     <Rocket size={40} className="text-white" />
                   </motion.div>
                   <h1 className="text-3xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
-                    Welcome to Foundry
+                    Welcome to Foundarly
                   </h1>
                   <p className="text-lg text-gray-600 dark:text-gray-300 mb-12">
                     Let's personalize your experience and help you build something amazing

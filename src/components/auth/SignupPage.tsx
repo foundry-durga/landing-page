@@ -37,7 +37,7 @@ export function SignupPage() {
         <div className="max-w-md mx-auto">
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">
-              Join Foundry
+              Join Foundarly
             </h1>
             <p className="text-gray-600 dark:text-gray-400">
               Create your account and start building your startup
