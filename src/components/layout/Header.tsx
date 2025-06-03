@@ -84,28 +84,44 @@ export function Header() {
                   <a 
                     href="#how-it-works" 
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
-                    onClick={() => setMobileMenuOpen(false)}
+                     onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  }}
                   >
                     Home
                   </a>
                   <a 
                     href="#ai-workflow" 
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
-                    onClick={() => setMobileMenuOpen(false)}
+                     onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('ai-workflow')?.scrollIntoView({ behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  }}
                   >
                     Features
                   </a>
                   <a 
                     href="#collaboration" 
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
-                    onClick={() => setMobileMenuOpen(false)}
+                     onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('collaboration')?.scrollIntoView({ behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  }}
                   >
                     Community
                   </a>
                   <a 
                     href="#investors" 
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
-                    onClick={() => setMobileMenuOpen(false)}
+                    onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('investors')?.scrollIntoView({ behavior: 'smooth' });
+    setMobileMenuOpen(false);
+  }}
                   >
                     Investors
                   </a>
