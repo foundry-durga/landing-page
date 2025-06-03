@@ -232,7 +232,7 @@ export function WaitlistPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     // Input styling: More rounded, refined focus, subtle bg
-                    className="w-full px-5 py-3.5 rounded-xl text-white border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
+                    className="w-full px-5 py-3.5 rounded-xl text-gray-200 border dark:text-white border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
                     placeholder="e.g., Ada Lovelace"
                   />
                 </div>
@@ -245,7 +245,7 @@ export function WaitlistPage() {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-5 py-3.5 text-white rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
+                    className="w-full px-5 py-3.5 dark:text-white rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
                     placeholder="you@example.com"
                   />
                 </div>
@@ -259,7 +259,7 @@ export function WaitlistPage() {
                   required
                   value={formData.role}
                   onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                  className="w-full px-5 py-3.5  text-white rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50"
+                  className="w-full px-5 py-3.5  dark:text-white rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50"
                 >
                   <option value="" disabled>Select your primary role</option>
                   {roles.map((role) => (
@@ -276,7 +276,7 @@ export function WaitlistPage() {
                   type="text"
                   value={formData.company}
                   onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                  className="w-full px-5 py-3.5 text-white  rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
+                  className="w-full px-5 py-3.5 dark:text-white  rounded-xl border border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
                   placeholder="e.g., InnovateX Inc."
                 />
               </div>
@@ -300,7 +300,7 @@ export function WaitlistPage() {
                       className={`
                         p-5 rounded-2xl text-left transform transition-all duration-300 ease-out
                         ${formData.interestAreas.includes(area.id)
-                          ? 'bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-xl scale-105 ring-2 ring-white/50'
+                          ? 'bg-gradient-to-br from-indigo-500 to-purple-600 dark:text-white shadow-xl scale-105 ring-2 ring-white/50'
                           : 'bg-indigo-50 dark:bg-slate-700/60 hover:bg-indigo-100 dark:hover:bg-slate-600/80 shadow-lg hover:shadow-indigo-500/20 dark:hover:shadow-purple-500/20 hover:scale-102'
                         }
                       `}
