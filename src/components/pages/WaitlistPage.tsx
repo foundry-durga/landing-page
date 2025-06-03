@@ -232,7 +232,7 @@ export function WaitlistPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     // Input styling: More rounded, refined focus, subtle bg
-                    className="w-full px-5 py-3.5 rounded-xl text-gray-200 border dark:text-white border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
+                    className="w-full px-5 py-3.5 rounded-xl text-black border dark:text-white border-gray-300 dark:border-slate-600 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 dark:focus:ring-purple-400 dark:focus:border-purple-400 outline-none transition-all duration-300 bg-white/70 dark:bg-slate-700/50 placeholder-gray-400 dark:placeholder-gray-500"
                     placeholder="e.g., Ada Lovelace"
                   />
                 </div>

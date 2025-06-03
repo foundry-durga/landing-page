@@ -63,7 +63,7 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-4 md:hidden bg-white dark:bg-black">
+          <div className="flex items-center space-x-4 md:hidden">
             <ThemeToggle />
             <button 
               className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 z-20"
@@ -75,7 +75,7 @@ export function Header() {
 
           {/* Mobile Menu */}
           <div className={`
-            fixed inset-0 bg-white dark:bg-gray-900 z-10 transition-transform duration-300 ease-in-out md:hidden
+            fixed inset-0 bg-white dark:bg-gray-900 z-20 transition-transform duration-300 ease-in-out md:hidden
             ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}
           `}>
             <div className="h-full flex flex-col pt-20 pb-6 px-6">
@@ -86,7 +86,7 @@ export function Header() {
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    How It Works
+                    Home
                   </a>
                   <a 
                     href="#ai-workflow" 
@@ -107,7 +107,7 @@ export function Header() {
                     className="block text-lg font-medium text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    Success Stories
+                    Investors
                   </a>
                 </nav>
               </div>
