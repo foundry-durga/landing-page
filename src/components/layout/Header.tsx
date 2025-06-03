@@ -40,16 +40,28 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#how-it-works" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
+            <a href="#how-it-works" onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
+  }}  className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium" >
               Home
             </a>
-            <a href="#ai-workflow" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
+            <a href="#ai-workflow" onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('ai-workflow')?.scrollIntoView({ behavior: 'smooth' });
+  }}  className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
               Features
             </a>
-            <a href="#collaboration" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
+            <a href="#collaboration" onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('collaboration')?.scrollIntoView({ behavior: 'smooth' });
+  }} className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
               Community
             </a>
-            <a href="#investors" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
+            <a href="#investors"  onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('investors')?.scrollIntoView({ behavior: 'smooth' });
+  }} className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium">
               Investors
             </a>
           </div>
