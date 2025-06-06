@@ -75,10 +75,10 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-4 md:hidden">
+          <div className="flex items-center z-30 space-x-4 md:hidden">
             <ThemeToggle />
             <button 
-              className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 z-20"
+              className="p-2 rounded-lg text-gray-700 z-30 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className='z-30' size={24} /> : <Menu size={24} />}
