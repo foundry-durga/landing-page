@@ -81,13 +81,13 @@ export function Header() {
               className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 z-20"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {mobileMenuOpen ? <X className='z-30' size={24} /> : <Menu size={24} />}
             </button>
           </div>
 
           {/* Mobile Menu */}
           <div className={`
-            fixed inset-0 bg-white dark:bg-gray-900 z-20 transition-transform duration-300 ease-in-out md:hidden
+            fixed inset-0 bg-white dark:bg-gray-900 z-30 transition-transform duration-300 ease-in-out md:hidden
             ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}
           `}>
             <div className="h-full flex flex-col pt-20 pb-6 px-6">
