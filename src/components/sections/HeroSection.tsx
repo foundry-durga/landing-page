@@ -16,10 +16,10 @@ export function HeroSection() {
       <Container className="relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 font-serif">
-            Where Visionaries Build Tomorrow's Success Stories
+            Ideas Find People.People Build Startups.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-            Join a community of innovators, creators, and entrepreneurs. Get the tools, support, and connections you need to turn your vision into reality.
+            Connect with co-founders, build your team, and transform your vision into reality. Join the community where innovative ideas meet exceptional talent.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button 
